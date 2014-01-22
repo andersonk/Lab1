@@ -1,0 +1,221 @@
+!SESSION 2014-01-21 21:30:23.123 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -data C:\Users\Jacob\Documents\GitHub\Lab1 -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-01-21 21:31:28.057
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-01-21 21:31:28.063
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Jacob'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2014-01-21 21:32:40.728
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2014-01-21 21:32:40.728
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.728
+!MESSAGE Software being installed: InSynth Feature 1.0.0.v-2_10-201310140130-3a8068f (ch.epfl.insynth.feature.feature.group 1.0.0.v-2_10-201310140130-3a8068f)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.728
+!MESSAGE Software being installed: Java to Scala 1.2.0.v-2_10-201311011217-4fbd4d7 (com.github.dnadolny.javatoscala.feature.feature.group 1.2.0.v-2_10-201311011217-4fbd4d7)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-01-21 21:32:40.728
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.729
+!MESSAGE Scala IDE for Eclipse 3.0.2.v-2_10-201310181157-0880865 (org.scala-ide.sdt.feature.feature.jar 3.0.2.v-2_10-201310181157-0880865)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.729
+!MESSAGE Scala IDE for Eclipse 3.0.1.v-2_10-201307101641-eff8147 (org.scala-ide.sdt.feature.feature.jar 3.0.1.v-2_10-201307101641-eff8147)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-01-21 21:32:40.729
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.729
+!MESSAGE From: InSynth Feature 1.0.0.v-2_10-201310140130-3a8068f (ch.epfl.insynth.feature.feature.group 1.0.0.v-2_10-201310140130-3a8068f)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.729
+!MESSAGE To: org.scala-ide.sdt.feature.feature.group [3.0.1.v-2_10-201307101641-eff8147]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-01-21 21:32:40.729
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.729
+!MESSAGE From: Java to Scala 1.2.0.v-2_10-201311011217-4fbd4d7 (com.github.dnadolny.javatoscala.feature.feature.group 1.2.0.v-2_10-201311011217-4fbd4d7)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.729
+!MESSAGE To: org.scala-ide.sdt.feature.feature.group [3.0.2.v-2_10-201310181157-0880865]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-01-21 21:32:40.729
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.729
+!MESSAGE From: Scala IDE for Eclipse 3.0.1.v-2_10-201307101641-eff8147 (org.scala-ide.sdt.feature.feature.group 3.0.1.v-2_10-201307101641-eff8147)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.729
+!MESSAGE To: org.scala-ide.sdt.feature.feature.jar [3.0.1.v-2_10-201307101641-eff8147]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-01-21 21:32:40.729
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.729
+!MESSAGE From: Scala IDE for Eclipse 3.0.2.v-2_10-201310181157-0880865 (org.scala-ide.sdt.feature.feature.group 3.0.2.v-2_10-201310181157-0880865)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.729
+!MESSAGE To: org.scala-ide.sdt.feature.feature.jar [3.0.2.v-2_10-201310181157-0880865]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2014-01-21 21:32:40.747
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2014-01-21 21:32:40.747
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.747
+!MESSAGE Software being installed: InSynth Feature 1.0.0.v-2_10-201310140130-3a8068f (ch.epfl.insynth.feature.feature.group 1.0.0.v-2_10-201310140130-3a8068f)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.747
+!MESSAGE Software being installed: Java to Scala 1.2.0.v-2_10-201311011217-4fbd4d7 (com.github.dnadolny.javatoscala.feature.feature.group 1.2.0.v-2_10-201311011217-4fbd4d7)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-01-21 21:32:40.747
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.747
+!MESSAGE Scala IDE for Eclipse 3.0.2.v-2_10-201310181157-0880865 (org.scala-ide.sdt.feature.feature.jar 3.0.2.v-2_10-201310181157-0880865)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.747
+!MESSAGE Scala IDE for Eclipse 3.0.1.v-2_10-201307101641-eff8147 (org.scala-ide.sdt.feature.feature.jar 3.0.1.v-2_10-201307101641-eff8147)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-01-21 21:32:40.747
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.747
+!MESSAGE From: InSynth Feature 1.0.0.v-2_10-201310140130-3a8068f (ch.epfl.insynth.feature.feature.group 1.0.0.v-2_10-201310140130-3a8068f)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.747
+!MESSAGE To: org.scala-ide.sdt.feature.feature.group [3.0.1.v-2_10-201307101641-eff8147]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-01-21 21:32:40.747
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.747
+!MESSAGE From: Java to Scala 1.2.0.v-2_10-201311011217-4fbd4d7 (com.github.dnadolny.javatoscala.feature.feature.group 1.2.0.v-2_10-201311011217-4fbd4d7)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.748
+!MESSAGE To: org.scala-ide.sdt.feature.feature.group [3.0.2.v-2_10-201310181157-0880865]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-01-21 21:32:40.748
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.748
+!MESSAGE From: Scala IDE for Eclipse 3.0.1.v-2_10-201307101641-eff8147 (org.scala-ide.sdt.feature.feature.group 3.0.1.v-2_10-201307101641-eff8147)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.748
+!MESSAGE To: org.scala-ide.sdt.feature.feature.jar [3.0.1.v-2_10-201307101641-eff8147]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-01-21 21:32:40.748
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.748
+!MESSAGE From: Scala IDE for Eclipse 3.0.2.v-2_10-201310181157-0880865 (org.scala-ide.sdt.feature.feature.group 3.0.2.v-2_10-201310181157-0880865)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.748
+!MESSAGE To: org.scala-ide.sdt.feature.feature.jar [3.0.2.v-2_10-201310181157-0880865]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2014-01-21 21:32:40.770
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2014-01-21 21:32:40.770
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.771
+!MESSAGE Software being installed: InSynth Feature 1.0.0.v-2_10-201310140130-3a8068f (ch.epfl.insynth.feature.feature.group 1.0.0.v-2_10-201310140130-3a8068f)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.771
+!MESSAGE Software being installed: Java to Scala 1.2.0.v-2_10-201311011217-4fbd4d7 (com.github.dnadolny.javatoscala.feature.feature.group 1.2.0.v-2_10-201311011217-4fbd4d7)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-01-21 21:32:40.771
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.771
+!MESSAGE Scala IDE for Eclipse 3.0.2.v-2_10-201310181157-0880865 (org.scala-ide.sdt.feature.feature.jar 3.0.2.v-2_10-201310181157-0880865)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.771
+!MESSAGE Scala IDE for Eclipse 3.0.1.v-2_10-201307101641-eff8147 (org.scala-ide.sdt.feature.feature.jar 3.0.1.v-2_10-201307101641-eff8147)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-01-21 21:32:40.771
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.771
+!MESSAGE From: InSynth Feature 1.0.0.v-2_10-201310140130-3a8068f (ch.epfl.insynth.feature.feature.group 1.0.0.v-2_10-201310140130-3a8068f)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.771
+!MESSAGE To: org.scala-ide.sdt.feature.feature.group [3.0.1.v-2_10-201307101641-eff8147]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-01-21 21:32:40.771
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.771
+!MESSAGE From: Java to Scala 1.2.0.v-2_10-201311011217-4fbd4d7 (com.github.dnadolny.javatoscala.feature.feature.group 1.2.0.v-2_10-201311011217-4fbd4d7)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.771
+!MESSAGE To: org.scala-ide.sdt.feature.feature.group [3.0.2.v-2_10-201310181157-0880865]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-01-21 21:32:40.771
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.771
+!MESSAGE From: Scala IDE for Eclipse 3.0.1.v-2_10-201307101641-eff8147 (org.scala-ide.sdt.feature.feature.group 3.0.1.v-2_10-201307101641-eff8147)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.771
+!MESSAGE To: org.scala-ide.sdt.feature.feature.jar [3.0.1.v-2_10-201307101641-eff8147]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-01-21 21:32:40.771
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.771
+!MESSAGE From: Scala IDE for Eclipse 3.0.2.v-2_10-201310181157-0880865 (org.scala-ide.sdt.feature.feature.group 3.0.2.v-2_10-201310181157-0880865)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.771
+!MESSAGE To: org.scala-ide.sdt.feature.feature.jar [3.0.2.v-2_10-201310181157-0880865]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2014-01-21 21:32:40.775
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2014-01-21 21:32:40.775
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.775
+!MESSAGE Software being installed: InSynth Feature 1.0.0.v-2_10-201310140130-3a8068f (ch.epfl.insynth.feature.feature.group 1.0.0.v-2_10-201310140130-3a8068f)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.776
+!MESSAGE Software being installed: Java to Scala 1.2.0.v-2_10-201311011217-4fbd4d7 (com.github.dnadolny.javatoscala.feature.feature.group 1.2.0.v-2_10-201311011217-4fbd4d7)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-01-21 21:32:40.776
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.776
+!MESSAGE Scala IDE for Eclipse 3.0.2.v-2_10-201310181157-0880865 (org.scala-ide.sdt.feature.feature.jar 3.0.2.v-2_10-201310181157-0880865)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.776
+!MESSAGE Scala IDE for Eclipse 3.0.1.v-2_10-201307101641-eff8147 (org.scala-ide.sdt.feature.feature.jar 3.0.1.v-2_10-201307101641-eff8147)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-01-21 21:32:40.776
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.776
+!MESSAGE From: InSynth Feature 1.0.0.v-2_10-201310140130-3a8068f (ch.epfl.insynth.feature.feature.group 1.0.0.v-2_10-201310140130-3a8068f)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.776
+!MESSAGE To: org.scala-ide.sdt.feature.feature.group [3.0.1.v-2_10-201307101641-eff8147]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-01-21 21:32:40.776
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.776
+!MESSAGE From: Java to Scala 1.2.0.v-2_10-201311011217-4fbd4d7 (com.github.dnadolny.javatoscala.feature.feature.group 1.2.0.v-2_10-201311011217-4fbd4d7)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.776
+!MESSAGE To: org.scala-ide.sdt.feature.feature.group [3.0.2.v-2_10-201310181157-0880865]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-01-21 21:32:40.776
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.776
+!MESSAGE From: Scala IDE for Eclipse 3.0.1.v-2_10-201307101641-eff8147 (org.scala-ide.sdt.feature.feature.group 3.0.1.v-2_10-201307101641-eff8147)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.776
+!MESSAGE To: org.scala-ide.sdt.feature.feature.jar [3.0.1.v-2_10-201307101641-eff8147]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-01-21 21:32:40.776
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.776
+!MESSAGE From: Scala IDE for Eclipse 3.0.2.v-2_10-201310181157-0880865 (org.scala-ide.sdt.feature.feature.group 3.0.2.v-2_10-201310181157-0880865)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-01-21 21:32:40.776
+!MESSAGE To: org.scala-ide.sdt.feature.feature.jar [3.0.2.v-2_10-201310181157-0880865]
+!SESSION 2014-01-21 21:33:42.047 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -data C:\Users\Jacob\Documents\GitHub\Lab1 -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.jface 2 0 2014-01-21 21:33:57.853
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-21 21:33:57.854
+!MESSAGE A conflict occurred for CTRL+F4:
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.eclipse.ui.file.close,Close,
+		Close the active editor,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6a13aa7d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.scala.tools.eclipse.search.commands.OpenTypeHierarchy,Open Type Hierarchy,
+		Open Type Hierarchy,
+		Category(org.scala.tools.eclipse.search.commands,Search - Scala,Search - Scala,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@311e2af3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-01-21 21:34:17.319
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-01-21 21:34:17.324
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Jacob'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
