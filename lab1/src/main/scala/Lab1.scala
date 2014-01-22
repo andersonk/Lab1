@@ -126,7 +126,37 @@ object Lab1 extends jsy.util.JsyApplication {
   def repOk(t: SearchTree): Boolean = {
     def check(t: SearchTree, min: Int, max: Int): Boolean = t match {
       case Empty => true
-      case Node(l, d, r) => throw new UnsupportedOperationException
+      case Node(l, d, r) => l match{
+      	case Empty => true
+      	case Node(l1, d1, r1) => ____________ /* I am not sure if we now check the case for d1 and then nested under d1
+      	check the case for r1, or if we just keep checking l1 until it returns true */
+      /* If we keep checking d1 
+      d1 match{
+        case Empty => true
+        case Node (l2, d2, r2) => r2 match{
+           case Empty => true
+           case Node (l3, d3, r3)
+        }
+      }
+      */
+      
+      /* If we keep checking l1 
+      l1 match{
+         case Empty => true
+         case Node (l2, d2, r3) => l2 match{
+            case Empty => true
+            case Node (l3, d3, r3)
+         }
+      }
+      */
+      
+     /* Basicaly we are just using nested match statments to access the different nodes of our tree */
+     
+         }
+        }
+      	
+      }
+      }
     }
     check(t, Int.MinValue, Int.MaxValue)
   }
